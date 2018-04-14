@@ -10,7 +10,7 @@ body{
   width: 60vw;
   background-color: white;
   border-radius: 10px;
-  margin: 50px 20vw;
+  margin: 70px 20vw;
   max-width: 1440px;
   display: inline-block;
   h3{
@@ -18,4 +18,64 @@ body{
     font-size: 14px;
     font-weight: normal;
   }
+  form{
+    text-align: left;
+    padding: 10px 20%;
+    label{
+      margin-bottom: 10px;
+      width: 100%;
+      font-size: 14px;
+    }
+    input{
+      width: 100%;
+      margin-top: 5px;
+      border: 1px solid #dc6203;
+      border-radius: 5px;
+      height: 25px;
+      padding-left: 10px;
+      font-size: 14px;
+      color: #333333;
+    }
+  }
+  .form-block{
+    display: inline-block;
+    width: 100%;
+    /*input,
+    label {
+      display: block;
+    }*/
+  }
+
 }
+
+.gender-block{
+  width: 40%;
+  float: left;
+  input,label{
+    width: auto !important;
+  }
+  input{
+    margin-top: 10px !important;
+    float: left;
+  }
+  label{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+  }
+  b{
+    margin-top: -5px;
+  }
+}
+
+.date-block{
+  width: 40%;
+  float: right;
+  input{
+    width: 50%;
+    float: right;
+  }
+}
+
