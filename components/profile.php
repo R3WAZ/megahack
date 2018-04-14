@@ -27,20 +27,20 @@ include ("header/header.php");
         </div>
 
         <div class="gender-block">
-            <input type="radio" name="gender" value="1" id="1">
-            <label for="1">М</label>
-            <input type="radio" name="gender" value="2" id="2">
-            <label for="2">М</label>
+            <input type="radio" name="gender" value="1" id="male">
+            <label for="male">М</label>
+            <input type="radio" name="gender" value="2" id="female">
+            <label for="female">Ж</label>
         </div>
         <div class="form-block">
             <label for="born-date">Дата рождения:<input type="date" name="born-date"></label>
         </div>
 
         <div class="gender-block">
-            <input type="radio" name="status" value="1" id="1">
-            <label for="1">Студент</label>
-            <input type="radio" name="status" value="2" id="2">
-            <label for="2">Абитуриент</label>
+            <input type="radio" name="status" value="1" id="student">
+            <label for="student">Студент</label>
+            <input type="radio" name="status" value="2" id="abiturient">
+            <label for="abiturient">Абитуриент</label>
         </div>
 
         <div class="form-block">
@@ -49,7 +49,13 @@ include ("header/header.php");
         <div class="form-block">
             <label for="phone">Номер телефона:<input type="text" name="phone"></label>
         </div>
-
+        <div class="form-block">
+            <label for="login">Логин:<input type="text" name="login"></label>
+        </div>
+        <div class="form-block">
+            <label for="password">Пароль:<input type="password" name="phone"></label>
+        </div>
+        <h3><b>* поля для заполнния обязательны</b></h3>
         <input type="submit">
 
 

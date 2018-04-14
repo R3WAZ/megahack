@@ -41,27 +41,37 @@ body {
     }*/ }
 
 .gender-block {
-  width: 40%;
-  float: left; }
+  width: 60%;
+  float: left;
+  padding-top: 10px; }
   .gender-block input, .gender-block label {
     width: auto !important; }
   .gender-block input {
     margin-top: 10px !important;
     float: left; }
   .gender-block label {
+    display: inline-block;
+    cursor: pointer;
     position: relative;
-    margin-top: 15px;
-    margin-left: 5px;
-    display: block;
-    float: left; }
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px; }
   .gender-block b {
     margin-top: -5px; }
-
-.date-block {
-  width: 40%;
-  float: right; }
-  .date-block input {
-    width: 50%;
-    float: right; }
+  .gender-block input[type="radio"] {
+    display: none; }
+  .gender-block label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 1px solid #dc6203;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px; }
+  .gender-block input[type="radio"]:checked + label:before {
+    background-color: #dc6203; }
 
 /*# sourceMappingURL=profile.css.map */
