@@ -39,9 +39,10 @@ if (true)
                     <img src="img/delete.jpg" alt="">
                 </div>
                 <h3>Поиск общежитий</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor, facere facilis iusto minus quis
-                    quo ullam. Aut corporis dolorum laboriosam maiores possimus quibusdam vitae voluptates? Debitis
-                    ipsam sed velit!</p>
+                <p>Абитуриент, поступая в общежитие, может найти все общежития, которыми
+                    владеет вуз и просмотреть подробную информацию о каждом из них. Если
+                    абитуриента не устраивают общежития вуза, он может найти межвузовские общежития в городе и в
+                    дальнейшем заселиться туда</p>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
@@ -49,10 +50,8 @@ if (true)
                 <div class="img-row">
                     <img src="img/delete.jpg" alt="">
                 </div>
-                <h3>Поиск общежитий</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor, facere facilis iusto minus quis
-                    quo ullam. Aut corporis dolorum laboriosam maiores possimus quibusdam vitae voluptates? Debitis
-                    ipsam sed velit!</p>
+                <h3>Поиск соседей</h3>
+                <p>Поиск соседей по введённым предпочитаемым характеристикам. Характеристики вводятся с приоритетами, чтобы определить те, которые наиболее или наименее важны. Это позволяет улучшить результаты поиска.</p>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
