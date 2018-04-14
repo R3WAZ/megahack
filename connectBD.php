@@ -1,14 +1,10 @@
 <?php
 
-//$host = '178.249.243.15'; // адрес сервера
-//$database = 'hack47'; // имя базы данных
-//$user = 'g_admin'; // имя пользователя
-//$password = '2g314800'; // пароль
+$host = '178.249.243.15'; // адрес сервера
+$database = 'hack47'; // имя базы данных
+$user = 'g_admin'; // имя пользователя
+$password = '2314800'; // пароль
 
-$host = 'localhost'; // адрес сервера
-$database = 'optimum_beauty'; // имя базы данных
-$user = 'root'; // имя пользователя
-$password = ''; // пароль
 
 // Create connection
 $conn = new mysqli($host, $user, $password, $database);
