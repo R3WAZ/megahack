@@ -1,0 +1,56 @@
+$megaOrange: #dc6203;
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Arial;
+  background: url("../img/header_background.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.main-container {
+  .head-row{
+    display: inline-block;
+    width: 100%;
+  }
+  width: 60vw;
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px 20vw;
+  padding: 30px 30px;
+  max-width: 1440px;
+  display: inline-block;
+  h3{
+    text-align: center;
+    color: $megaOrange;
+    font-size: 24px;
+  }
+}
+
+.avatar{
+  width: 20%;
+  float: left;
+}
+
+.profile-info{
+  width: 70%;
+  text-align: left;
+  padding: 15px;
+  float: right;
+  border: 3px solid $megaOrange;
+  border-radius: 10px;
+  p{
+    margin: 5px auto;
+    color: #333333;
+  }
+  b{
+    color: $megaOrange;
+    font-size: 18px;
+  }
+  i{
+    float: right;
+    font-style: normal;
+  }
+}
