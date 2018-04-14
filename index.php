@@ -36,7 +36,7 @@ if (true)
         <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
             <div class="card-content">
                 <div class="img-row">
-                    <img src="img/delete.jpg" alt="">
+                    <img src="img/dormitory.svg" alt="">
                 </div>
                 <h3>Поиск общежитий</h3>
                 <p>Абитуриент, поступая в общежитие, может найти все общежития, которыми
@@ -48,7 +48,7 @@ if (true)
         <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
             <div class="card-content">
                 <div class="img-row">
-                    <img src="img/delete.jpg" alt="">
+                    <img src="img/neighbours.svg" alt="">
                 </div>
                 <h3>Поиск соседей</h3>
                 <p>Поиск соседей по введённым предпочитаемым характеристикам. Характеристики вводятся с приоритетами,
@@ -59,7 +59,7 @@ if (true)
         <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
             <div class="card-content">
                 <div class="img-row">
-                    <img src="img/delete.jpg" alt="">
+                    <img src="img/tests.svg" alt="">
                 </div>
                 <h3>Определение личных качеств</h3>
                 <p>Прохождение онлайн тестирований на нашем сервисе поможет каждому пользователю окончательно
