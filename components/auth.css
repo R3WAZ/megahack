@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial;
+  background: url("../img/header_background.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
+.main-container {
+  width: 60vw;
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px 20vw;
+  max-width: 1440px;
+  display: inline-block; }
+  .main-container p {
+    font-size: 12px; }
+  .main-container h3 {
+    color: #dc6203;
+    font-size: 24px;
+    font-weight: normal; }
+  .main-container form {
+    text-align: center;
+    padding: 10px 20%; }
+    .main-container form label {
+      text-align: left;
+      float: left;
+      margin-bottom: 10px;
+      width: 100%;
+      font-size: 14px; }
+    .main-container form input[type=email], .main-container form input[type=password] {
+      width: 100%;
+      margin-top: 5px;
+      border: 1px solid #dc6203;
+      border-radius: 5px;
+      height: 25px;
+      padding-left: 10px;
+      font-size: 14px;
+      color: #333333; }
+    .main-container form input[type="submit"] {
+      border: none;
+      background-color: #dc6203;
+      width: 150px !important;
+      padding: 5px 15px;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      color: white !important;
+      font-weight: bold;
+      cursor: pointer; }
+  .main-container .form-block {
+    display: inline-block;
+    width: 100%;
+    /*input,
+    label {
+      display: block;
+    }*/ }
+
+/*# sourceMappingURL=auth.css.map */

@@ -15,6 +15,7 @@ include ("header/header.php");
 ?>
 <div class="main-container">
     <h3>Добро пожаловать!<br>Приступим к поиску идеального соседа</h3>
+    <p>Уже зарегистрированы? <a href="auth.php">Войти</a></p>
     <form action="registerRun.php" name="register-form" id="register-form" method="post">
         <div class="form-block">
             <label for="family">Фамилия:<input type="text" name="family"></label>
