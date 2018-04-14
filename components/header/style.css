@@ -9,7 +9,8 @@
   .header-row img {
     height: 30px;
     width: auto;
-    float: left; }
+    float: left;
+    cursor: pointer; }
   .header-row button {
     background-color: white;
     border: none;

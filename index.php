@@ -131,7 +131,7 @@ if (true)
 <div class="footer">
     <div class="main-container">
         <h2>Ещё не нашли своего соседа? Сделайте это прямо сейчас!</h2>
-        <button onclick="window.location='register.php'">Найти соседа</button>
+        <button onclick="window.location='components/register.php'">Найти соседа</button>
     </div>
 
 </div>
