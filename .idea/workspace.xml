@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a37be3-176f-4b53-8964-42895f0c0985" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +52,8 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+            <state relative-caret-position="293">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -128,16 +124,6 @@
               <item name="megahack" type="b2602c69:ProjectViewProjectNode" />
               <item name="megahack" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="megahack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="megahack" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="megahack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="megahack" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,12 +164,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523656385733</updated>
       <workItem from="1523656393396" duration="908000" />
-      <workItem from="1523681634889" duration="27824000" />
+      <workItem from="1523681634889" duration="28285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28631000" />
+    <option name="totallyTimeSpent" value="29092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,10 +286,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/findNeighbour.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        <state relative-caret-position="293">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
         </state>
       </provider>
     </entry>
