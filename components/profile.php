@@ -15,7 +15,7 @@ include ("header/header.php");
 ?>
 <div class="main-container">
     <h3>Добро пожаловать!<br>Приступим к поиску идеального соседа</h3>
-    <form action="registerRun.php" name="register-form" id="register-form">
+    <form action="registerRun.php" name="register-form" id="register-form" method="post">
         <div class="form-block">
             <label for="family">Фамилия:<input type="text" name="family"></label>
         </div>
@@ -32,7 +32,7 @@ include ("header/header.php");
             <input type="radio" name="gender" value="2" id="2">
             <label for="2">М</label>
         </div>
-        <div class="date-block">
+        <div class="form-block">
             <label for="born-date">Дата рождения:<input type="date" name="born-date"></label>
         </div>
 
