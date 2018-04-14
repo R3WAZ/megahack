@@ -12,10 +12,8 @@
 </head>
 <body>
     <?php
-
-    if (true)
-        include ("components/header/header.php");
-
+        if (true)
+            include ("components/header/headerMain.php");
     ?>
     <div class="first-block">
         Welcome to the dorMy!

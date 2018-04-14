@@ -3,4 +3,30 @@
   background-color: #1b6d85;
   height: 50px; }
 
+.header-main-row {
+  font-family: "Arial";
+  width: 100%;
+  padding: 10%;
+  background: url("../../img/header_background.jpg") no-repeat;
+  background-size: cover;
+  height: 30%;
+  text-align: center; }
+  .header-main-row img {
+    width: 40%;
+    float: top;
+    margin-bottom: 20px; }
+  .header-main-row button {
+    background-color: white;
+    font-size: 18px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    color: #813334;
+    float: bottom;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 40px; }
+    .header-main-row button:hover {
+      opacity: 0.8; }
+
 /*# sourceMappingURL=style.css.map */
