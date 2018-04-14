@@ -8,13 +8,18 @@
     <title>dorMy</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="components/header/style.css"
 </head>
 <body>
+    <?php
+
+    if (true)
+        include ("components/header/header.php");
+
+    ?>
     <div class="first-block">
         Welcome to the dorMy!
     </div>
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Подключаем Bootstrap JS -->
