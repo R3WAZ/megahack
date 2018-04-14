@@ -16,6 +16,12 @@
     width: 500px;
     float: top;
     margin-bottom: 40px;
+    &:hover{
+      animation: button-animation;
+      animation-duration: 300ms;
+      animation-direction: alternate;
+      animation-fill-mode: forwards;
+    }
   }
   .button-block{
     width: 100%;
@@ -30,9 +36,23 @@
       float: bottom;
       height: 50px;
       &:hover {
-        opacity: 0.8;
+        animation: button-animation;
+        animation-duration: 300ms;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
       }
     }
   }
 
+}
+
+@keyframes button-animation {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to{
+    opacity: 0.8;
+    transform: scale(1.01);
+  }
 }

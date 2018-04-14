@@ -15,6 +15,11 @@
     width: 500px;
     float: top;
     margin-bottom: 40px; }
+    .header-main-row img:hover {
+      animation: button-animation;
+      animation-duration: 300ms;
+      animation-direction: alternate;
+      animation-fill-mode: forwards; }
   .header-main-row .button-block {
     width: 100%; }
     .header-main-row .button-block button {
@@ -28,6 +33,17 @@
       float: bottom;
       height: 50px; }
       .header-main-row .button-block button:hover {
-        opacity: 0.8; }
+        animation: button-animation;
+        animation-duration: 300ms;
+        animation-direction: alternate;
+        animation-fill-mode: forwards; }
+
+@keyframes button-animation {
+  from {
+    opacity: 1;
+    transform: scale(1); }
+  to {
+    opacity: 0.8;
+    transform: scale(1.01); } }
 
 /*# sourceMappingURL=style.css.map */

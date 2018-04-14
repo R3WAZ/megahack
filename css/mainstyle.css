@@ -31,6 +31,11 @@ body {
       border-radius: 10px;
       background-color: #ffeed4;
       box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25); }
+      .opportunity-container .opportunity-card .card-content:hover {
+        animation: card-animation;
+        animation-duration: 300ms;
+        animation-direction: alternate;
+        animation-fill-mode: forwards; }
       .opportunity-container .opportunity-card .card-content h3 {
         font-size: 18px;
         font-weight: bold;
@@ -51,5 +56,12 @@ body {
 @media (min-width: 1440px) {
   .main-container {
     margin-left: calc((100vw - 1440px) / 2); } }
+@keyframes card-animation {
+  from {
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: scale(1); }
+  to {
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01); } }
 
 /*# sourceMappingURL=mainstyle.css.map */
