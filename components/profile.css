@@ -23,6 +23,64 @@ body {
     color: #dc6203;
     font-size: 24px; }
 
+.form-block {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%; }
+
+form {
+  text-align: left; }
+  form b {
+    float: left;
+    margin-right: 15px; }
+  form input[type="time"] {
+    border: 2px solid #dc6203;
+    border-radius: 5px; }
+  form input[type="range"] {
+    -webkit-appearance: none; }
+    form input[type="range"]::-moz-range-thumb {
+      border: 3px solid #dc6203;
+      height: 20px;
+      width: 20px;
+      border-radius: 12px;
+      background: #ffffff;
+      cursor: pointer; }
+    form input[type="range"]::-moz-range-track {
+      background-color: #dc6203; }
+  form input[type="submit"] {
+    float: right;
+    background-color: #dc6203;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px; }
+  form .styled-select {
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    display: block; }
+    form .styled-select::after {
+      content: '\25BC';
+      color: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 3px 10px;
+      background: #dc6203;
+      pointer-events: none;
+      border-radius: 5px; }
+    form .styled-select select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      background-color: white;
+      border: 3px solid #dc6203;
+      border-radius: 5px;
+      width: 150px; }
+
 .avatar {
   width: 20%;
   float: left; }
