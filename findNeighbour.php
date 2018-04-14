@@ -20,19 +20,17 @@ function FindNeighbour($idUser)
         }
     }
 
-    $maxResult = 0;
-    $bestNeighbour = array();
+    $bestNeighbours = array();
     foreach ($personalityData as $userRow)
     {
         if ($userRow[0] != $idUser)
         {
-            if (Compare($userCharacteristic[$userRow[1]][2], $userRow[2]) > $maxResult)
-            {
-                array_unshift($bestNeighbour, $userRow[0]);
-            }
+            $result = Compare($userCharacteristic[$userRow[1]][2], $userRow[2]);
+            $bestNeighbours[$result] = $userRow[0];
         }
     }
 
+    return array_slice($bestNeighbours, 0, 10);
 }
 
 function Compare($currentChar, $neighbourChar)
@@ -78,7 +76,7 @@ function CompareInterval($currentChar, $neighbourChar)
     {
         $end = $currentValues[1];
     }
-    $result = 1/($end - $begin);
+    $result = ($end - $begin)/($currentValues[0] - $currentValues[1]);
 }
 
 function GetIntValues($value)
