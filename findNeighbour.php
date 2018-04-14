@@ -3,71 +3,93 @@
  * Created by PhpStorm.
  * User: Zalkin
  * Date: 14.04.2018
- * Time: 17:55
+ * Time: 21:09
  */
 
 function FindNeighbour($idUser)
 {
-    $getAllUsers = "SELECT idUser FROM User GROUP BY idUser";
-    $maxResult = -1;
-    $bestNeighbours = array();
-    while ($allUsers = mysqli_fetch_row(mysqli_query($getAllUsers)))
+    $getPersonalityTable = "SELECT idUser, idPersonality, value FROM Personality ORDER BY idUser, idPersonality";
+    $personalityData = mysqli_fetch_row(mysqli_query($getPersonalityTable));
+
+    $userCharacteristic = array();
+    foreach($personalityData as $userRow)
     {
-        if ($allUsers != $idUser)
+        if ($userRow[0] == $idUser)
         {
-            if (Compare($idUser, $allUsers) > $maxResult)
+            $userCharacteristic[$userRow[1]] = $userRow[2];
+        }
+    }
+
+    $maxResult = 0;
+    $bestNeighbour = array();
+    foreach ($personalityData as $userRow)
+    {
+        if ($userRow[0] != $idUser)
+        {
+            if (Compare($userCharacteristic[$userRow[1]][2], $userRow[2]) > $maxResult)
             {
-                array_push($bestNeighbours, $idUser);
+                array_unshift($bestNeighbour, $userRow[0]);
             }
         }
     }
 
-    return array_reverse($bestNeighbours);
 }
 
-function Compare($currUser, $neighbour)
+function Compare($currentChar, $neighbourChar)
 {
-    $getCurrCharacteristic  = "SELECT idPersonality, value FROM Personality  WHERE idUser == $currUser ORDER BY idPersonality";
-    $currCharacteristic = mysqli_fetch_row(mysqli_query(($getCurrCharacteristic)));
-    $getNeighbourCharacteristic = "SELECT idPersonality, value FROM Personality  WHERE idUser == $neighbour ORDER BY idPersonality";
-    $neighbourCharacteristic = mysqli_fetch_row(mysqli_query(($getNeighbourCharacteristic)));
-
     $result = 0;
-    $characteristicCount = count($currCharacteristic);
-    for ($iChar = 0; $iChar < range($characteristicCount); $iChar++)
+    if (strstr($currentChar,"-"))
     {
-        $begin = -1;
-        $end = -1;
-        $currentValues = GetIntValues($currCharacteristic[1]);
-        $neighbourValues = GetIntValues($neighbourCharacteristic[1]);
+        CompareInterval($currentChar, $neighbourChar);
+    }
+    elseif (is_numeric($currentChar))
+    {
+        $result += 1;
+    }
+    elseif ($currentChar == $neighbourChar)
+    {
+        $result += 1;
+    }
+    return $result;
+}
 
-        if ($currentValues[0] > $neighbourValues[0])
-        {
-            $begin = $currentValues[0];
-        }
-        else
-        {
-            $begin = $neighbourValues[0];
-        }
+function CompareInterval($currentChar, $neighbourChar)
+{
+    $begin = -1;
+    $end = -1;
 
-        if ($currentValues[1] > $neighbourValues[1])
-        {
-            $end = $neighbourValues[1];
-        }
-        else
-        {
-            $end = $currentValues[1];
-        }
-        $result += $end - $begin;
+    $currentValues = GetIntValues($currentChar);
+    $neighbourValues = GetIntValues($neighbourChar[1]);
+
+    if ($currentValues[0] > $neighbourValues[0])
+    {
+        $begin = $currentValues[0];
+    }
+    else
+    {
+        $begin = $neighbourValues[0];
     }
 
-    return $result;
+    if ($currentValues[1] > $neighbourValues[1])
+    {
+        $end = $neighbourValues[1];
+    }
+    else
+    {
+        $end = $currentValues[1];
+    }
+    $result = 1/($end - $begin);
 }
 
 function GetIntValues($value)
 {
     $values = explode("-", $value);
-    $intValues = array((int)$values[0],(int)$values[1]);
+    $intValues = array();
+    for ($i = 0; $i < range(count($values)); $i++)
+    {
+        array_push($intValues, (int)$values[i]);
+    }
+
     return $intValues;
 }
 ?>
