@@ -1,7 +1,25 @@
 body {
   background-color: #f2f2f2;
-  text-align: center; }
-  body .first-block {
-    font-weight: bold; }
+  text-align: center;
+  font-family: Arial; }
+
+.main-container {
+  width: 100%;
+  padding: 30px 10%;
+  max-width: 1440px; }
+  .main-container h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #813334;
+    margin-bottom: 40px; }
+  .main-container p {
+    text-align: justify;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 20px; }
+
+@media (min-width: 1440px) {
+  .main-container {
+    margin-left: calc((100vw - 1440px)/2); } }
 
 /*# sourceMappingURL=mainstyle.css.map */
