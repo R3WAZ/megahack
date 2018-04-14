@@ -70,6 +70,12 @@ body {
   }
 }
 
+.function-container{
+  padding: 10px;
+  text-align: left;
+
+}
+
 @media (min-width: 1440px) {
   .main-container {
     margin-left: calc((100vw - 1440px) / 2);
