@@ -61,10 +61,9 @@ if (true)
                 <div class="img-row">
                     <img src="img/delete.jpg" alt="">
                 </div>
-                <h3>Поиск общежитий</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor, facere facilis iusto minus quis
-                    quo ullam. Aut corporis dolorum laboriosam maiores possimus quibusdam vitae voluptates? Debitis
-                    ipsam sed velit!</p>
+                <h3>Определение личных качеств</h3>
+                <p>Прохождение онлайн тестирований на нашем сервисе поможет каждому пользователю окончательно
+                    определиться в своих предпочтениях или лучше узнать себя, как соседа.</p>
             </div>
         </div>
 
