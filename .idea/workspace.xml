@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a37be3-176f-4b53-8964-42895f0c0985" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/mainstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainstyle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainstyle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainstyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainstyle.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+            <state relative-caret-position="208">
+              <caret line="117" column="10" lean-forward="true" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainstyle.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mainstyle.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="429">
+              <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -50,10 +53,10 @@
         <option value="$PROJECT_DIR$/components/header/header.php" />
         <option value="$PROJECT_DIR$/css/register.scss" />
         <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/css/mainstyle.scss" />
         <option value="$PROJECT_DIR$/components/header/style.scss" />
         <option value="$PROJECT_DIR$/components/header/headerMain.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/mainstyle.scss" />
       </list>
     </option>
   </component>
@@ -134,12 +137,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523656385733</updated>
       <workItem from="1523656393396" duration="908000" />
-      <workItem from="1523681634889" duration="14483000" />
+      <workItem from="1523681634889" duration="15522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15290000" />
+    <option name="totallyTimeSpent" value="16329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -228,17 +231,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainstyle.scss">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="208">
+          <caret line="117" column="10" lean-forward="true" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/css/mainstyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        <state relative-caret-position="429">
+          <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
         </state>
       </provider>
     </entry>

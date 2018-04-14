@@ -70,10 +70,25 @@ body {
   }
 }
 
+.function-row{
+  width: 100%;
+  display: inline-block;
+}
+
 .function-container{
   padding: 10px;
+  display: inline-grid;
   text-align: left;
-
+  img{
+    width: 80%;
+    margin-left: 10%;
+    &:hover{
+      animation: img-animation;
+      animation-duration: 300ms;
+      animation-direction: alternate;
+      animation-fill-mode: forwards;
+    }
+  }
 }
 
 @media (min-width: 1440px) {
@@ -91,4 +106,14 @@ body {
     box-shadow: 0px 8px 4px rgba(0,0,0,0.50);
     transform: scale(1.01);
   }
+}
+
+@keyframes img-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+  
 }
