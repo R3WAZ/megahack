@@ -4,9 +4,13 @@ body{
   text-align: center;
   font-family: Arial;
   background: url("../img/header_background.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .main-container{
+
   width: 60vw;
   background-color: white;
   border-radius: 10px;
@@ -92,6 +96,13 @@ body{
 }
 
 input[type="submit"]{
-
+  border: none;
+  background-color: #dc6203;
+  width: 150px !important;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 40px;
+  color: white !important;
+  font-weight: bold;
 }
 

@@ -53,7 +53,7 @@ include ("header/header.php");
             <label for="password">Пароль:<input type="password" name="phone"></label>
         </div>
         <h3><b>* поля для заполнния обязательны</b></h3>
-        <input type="submit">
+        <input type="submit" value="Далее">
 
 
     </form>
