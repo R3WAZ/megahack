@@ -1,7 +1,39 @@
 .header-row {
-  width: 100%;
-  background-color: #1b6d85;
-  height: 50px; }
+  font-family: Arial;
+  background-color: #dc6203;
+  padding: 7px 10%;
+  position: fixed;
+  z-index: 9999;
+  width: 80%;
+  height: 30px; }
+  .header-row img {
+    height: 30px;
+    width: auto;
+    float: left; }
+  .header-row button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    float: right;
+    color: #dc6203;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: bold; }
+    .header-row button:hover {
+      cursor: pointer;
+      animation: button-animation;
+      animation-duration: 300ms;
+      animation-direction: alternate;
+      animation-fill-mode: forwards; }
+  .header-row .menu-point {
+    float: right;
+    color: white;
+    font-size: 14px;
+    margin: 7px 10px;
+    cursor: pointer; }
+    .header-row .menu-point:hover {
+      border-bottom: 3px solid white; }
 
 .header-main-row {
   font-family: "Arial";
