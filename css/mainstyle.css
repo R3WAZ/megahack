@@ -69,6 +69,31 @@ body {
       animation-duration: 300ms;
       animation-direction: alternate;
       animation-fill-mode: forwards; }
+  .function-container b {
+    font-weight: bolder; }
+
+.footer {
+  background-color: #dc641b;
+  text-align: center; }
+  .footer h2 {
+    color: white;
+    margin-bottom: 20px; }
+  .footer button {
+    margin-bottom: 20px;
+    background-color: white;
+    font-size: 34px;
+    font-weight: bold;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    color: #dc641b;
+    float: bottom;
+    height: 50px; }
+    .footer button:hover {
+      animation: button-animation;
+      animation-duration: 300ms;
+      animation-direction: alternate;
+      animation-fill-mode: forwards; }
 
 @media (min-width: 1440px) {
   .main-container {

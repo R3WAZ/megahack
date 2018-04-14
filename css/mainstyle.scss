@@ -6,14 +6,12 @@ body {
   font-family: Arial;
 }
 
-
-
 .main-container {
   width: 100%;
   padding: 30px 10%;
   max-width: 1440px;
   display: inline-block;
-  h2{
+  h2 {
     font-size: 26px;
     font-weight: bold;
     color: $font-color;
@@ -31,36 +29,36 @@ body {
 .opportunity-container {
   width: 100%;
   background-color: #ffe4b3;
-  .opportunity-card{
+  .opportunity-card {
     padding: 0 5px;
     margin-bottom: 20px;
-    .card-content{
+    .card-content {
       border: none;
       padding: 20px 20px;
       border-radius: 10px;
       background-color: #ffeed4;
       box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
-      &:hover{
+      &:hover {
         animation: card-animation;
         animation-duration: 300ms;
         animation-direction: alternate;
         animation-fill-mode: forwards;
       }
-      h3{
+      h3 {
         font-size: 18px;
         font-weight: bold;
         color: $font-color;
         margin-bottom: 40px;
         text-align: center;
       }
-      p{
+      p {
         font-size: 14px;
         text-align: center;
       }
-      .img-row{
+      .img-row {
         width: 100%;
         text-align: center;
-        img{
+        img {
           height: 120px;
           width: 120px;
           border-radius: 60px;
@@ -70,20 +68,50 @@ body {
   }
 }
 
-.function-row{
+.function-row {
   width: 100%;
   display: inline-block;
 }
 
-.function-container{
+.function-container {
   padding: 10px;
   display: inline-grid;
   text-align: left;
-  img{
+  img {
     width: 80%;
     margin-left: 10%;
-    &:hover{
+    &:hover {
       animation: img-animation;
+      animation-duration: 300ms;
+      animation-direction: alternate;
+      animation-fill-mode: forwards;
+    }
+  }
+  b {
+    font-weight: bolder;
+  }
+}
+
+.footer {
+  background-color: #dc641b;
+  text-align: center;
+  h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  button {
+    margin-bottom: 20px;
+    background-color: white;
+    font-size: 34px;
+    font-weight: bold;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    color: #dc641b;
+    float: bottom;
+    height: 50px;
+    &:hover {
+      animation: button-animation;
       animation-duration: 300ms;
       animation-direction: alternate;
       animation-fill-mode: forwards;
@@ -98,12 +126,12 @@ body {
 }
 
 @keyframes card-animation {
-  from{
+  from {
     box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
     transform: scale(1);
   }
-  to{
-    box-shadow: 0px 8px 4px rgba(0,0,0,0.50);
+  to {
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.50);
     transform: scale(1.01);
   }
 }
@@ -115,5 +143,5 @@ body {
   to {
     transform: scale(1.05);
   }
-  
+
 }
