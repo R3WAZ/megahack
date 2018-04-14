@@ -3,21 +3,24 @@ $font-color: rgb(129, 51, 52);
 
 body {
   background-color: $background;
-  text-align: center;
   font-family: Arial;
 }
 
-.main-container{
+
+
+.main-container {
   width: 100%;
   padding: 30px 10%;
   max-width: 1440px;
-  h1{
+  display: inline-block;
+  h2{
     font-size: 26px;
     font-weight: bold;
     color: $font-color;
     margin-bottom: 40px;
+    text-align: center;
   }
-  p{
+  p {
     text-align: justify;
     color: #333333;
     font-size: 18px;
@@ -25,8 +28,43 @@ body {
   }
 }
 
-@media (min-width: 1440px){
-  .main-container{
-    margin-left: calc((100vw - 1440px)/2);
+.opportunity-container {
+  width: 100%;
+  background-color: #ffe4b3;
+  .opportunity-card{
+    padding: 0 5px;
+    margin-bottom: 20px;
+    .card-content{
+      border: none;
+      padding: 20px 20px;
+      border-radius: 10px;
+      background-color: #ffeed4;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+      h3{
+        font-size: 18px;
+        font-weight: bold;
+        color: $font-color;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      p{
+        font-size: 14px;
+      }
+      .img-row{
+        width: 100%;
+        text-align: center;
+        img{
+          height: 120px;
+          width: 120px;
+          border-radius: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    margin-left: calc((100vw - 1440px) / 2);
   }
 }

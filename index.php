@@ -16,8 +16,9 @@ if (true)
     include("components/header/headerMain.php");
 ?>
 <div class="main-container">
-    <h1>О сервисе</h1>
-    <p><b>Цель сервиса</b> - связать студентов, подходящих друг другу по стилю жизни, для комфортного совместного проживания в
+    <h2>О сервисе</h2>
+    <p><b>Цель сервиса</b> - связать студентов, подходящих друг другу по стилю жизни, для комфортного совместного
+        проживания в
         общежитии.</p>
     <p>Многие студенты при поступлении в вузы не представляют, где, как и с кем они будут жить. К тому же ситуация
         некоторых становится ещё хуже, потому что весь их опыт жизни с посторонними людьми заканчивается на детских
@@ -28,6 +29,45 @@ if (true)
         материальной, так как они позволяют искать соседей для совместного съёма жилья с поиском наиболее выгодных
         вариантов без учитывания персональных качеств жильцов.
     </p>
+</div>
+<div class="opportunity-container">
+    <div class="main-container">
+        <h2>Возможности сервиса</h2>
+        <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
+            <div class="card-content">
+                <div class="img-row">
+                    <img src="img/delete.jpg" alt="">
+                </div>
+                <h3>Поиск общежитий</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor, facere facilis iusto minus quis
+                    quo ullam. Aut corporis dolorum laboriosam maiores possimus quibusdam vitae voluptates? Debitis
+                    ipsam sed velit!</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
+            <div class="card-content">
+                <div class="img-row">
+                    <img src="img/delete.jpg" alt="">
+                </div>
+                <h3>Поиск общежитий</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor, facere facilis iusto minus quis
+                    quo ullam. Aut corporis dolorum laboriosam maiores possimus quibusdam vitae voluptates? Debitis
+                    ipsam sed velit!</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
+            <div class="card-content">
+                <div class="img-row">
+                    <img src="img/delete.jpg" alt="">
+                </div>
+                <h3>Поиск общежитий</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor, facere facilis iusto minus quis
+                    quo ullam. Aut corporis dolorum laboriosam maiores possimus quibusdam vitae voluptates? Debitis
+                    ipsam sed velit!</p>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
