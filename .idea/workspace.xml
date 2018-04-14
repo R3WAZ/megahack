@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/connectBD.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -142,12 +142,12 @@
       <updated>1523656385733</updated>
       <workItem from="1523656393396" duration="908000" />
       <workItem from="1523681634889" duration="38725000" />
-      <workItem from="1523738859836" duration="41000" />
+      <workItem from="1523738859836" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39573000" />
+    <option name="totallyTimeSpent" value="39679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -323,7 +323,7 @@
     <entry file="file://$PROJECT_DIR$/connectBD.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
