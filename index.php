@@ -51,7 +51,9 @@ if (true)
                     <img src="img/delete.jpg" alt="">
                 </div>
                 <h3>Поиск соседей</h3>
-                <p>Поиск соседей по введённым предпочитаемым характеристикам. Характеристики вводятся с приоритетами, чтобы определить те, которые наиболее или наименее важны. Это позволяет улучшить результаты поиска.</p>
+                <p>Поиск соседей по введённым предпочитаемым характеристикам. Характеристики вводятся с приоритетами,
+                    чтобы определить те, которые наиболее или наименее важны. Это позволяет улучшить результаты
+                    поиска.</p>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 sol-xs-12 opportunity-card">
@@ -70,8 +72,60 @@ if (true)
 </div>
 <div class="main-container">
     <h2>Функционал сервиса</h2>
-    <div class="col-md-6 col-xs-12 function-container">
-        
+    <div class="function-row">
+        <div class="col-sm-6 col-xs-12 function-container">
+            <img src="img/step1.svg" alt="">
+        </div>
+        <div class="col-sm-6 col-xs-12 function-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorum id illum inventore iste natus
+                ratione? Accusamus asperiores expedita, harum molestiae, numquam quae quasi quidem quos tempore
+                temporibus
+                veniam voluptatem!</p>
+        </div>
+    </div>
+    <div class="function-row">
+        <div class="col-sm-6 col-xs-12 function-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorum id illum inventore iste natus
+                ratione? Accusamus asperiores expedita, harum molestiae, numquam quae quasi quidem quos tempore
+                temporibus
+                veniam voluptatem!</p>
+        </div>
+        <div class="col-sm-6 col-xs-12 function-container">
+            <img src="img/step2.svg" alt="">
+        </div>
+    </div>
+    <div class="function-row">
+        <div class="col-sm-6 col-xs-12 function-container">
+            <img src="img/step3.svg" alt="">
+        </div>
+        <div class="col-sm-6 col-xs-12 function-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorum id illum inventore iste natus
+                ratione? Accusamus asperiores expedita, harum molestiae, numquam quae quasi quidem quos tempore
+                temporibus
+                veniam voluptatem!</p>
+        </div>
+    </div>
+    <div class="function-row">
+        <div class="col-sm-6 col-xs-12 function-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorum id illum inventore iste natus
+                ratione? Accusamus asperiores expedita, harum molestiae, numquam quae quasi quidem quos tempore
+                temporibus
+                veniam voluptatem!</p>
+        </div>
+        <div class="col-sm-6 col-xs-12 function-container">
+            <img src="img/step4.svg" alt="">
+        </div>
+    </div>
+    <div class="function-row">
+        <div class="col-sm-6 col-xs-12 function-container">
+            <img src="img/step5.svg" alt="">
+        </div>
+        <div class="col-sm-6 col-xs-12 function-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorum id illum inventore iste natus
+                ratione? Accusamus asperiores expedita, harum molestiae, numquam quae quasi quidem quos tempore
+                temporibus
+                veniam voluptatem!</p>
+        </div>
     </div>
 </div>
 
