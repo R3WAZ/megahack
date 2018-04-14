@@ -68,6 +68,12 @@ if (true)
 
     </div>
 </div>
+<div class="main-container">
+    <h2>Функционал сервиса</h2>
+    <div class="col-md-6 col-xs-12 function-container">
+        
+    </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Подключаем Bootstrap JS -->
