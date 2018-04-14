@@ -13,5 +13,8 @@
 <?php
 include ("header/header.php");
 ?>
+<div class="main-container">
+    <h3>Добро пожаловать!<br>Приступим к поиску идеального соседа</h3>
+</div>
 </body>
 </html>

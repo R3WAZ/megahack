@@ -1,4 +1,20 @@
 body {
-  margin: 0; }
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  font-family: Arial;
+  background: url("../img/header_background.jpg") no-repeat; }
+
+.main-container {
+  width: 60vw;
+  background-color: white;
+  border-radius: 10px;
+  margin: 50px 20vw;
+  max-width: 1440px;
+  display: inline-block; }
+  .main-container h3 {
+    color: #dc6203;
+    font-size: 14px;
+    font-weight: normal; }
 
 /*# sourceMappingURL=profile.css.map */
