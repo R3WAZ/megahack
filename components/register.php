@@ -18,10 +18,10 @@ include ("header/header.php");
     <p>Уже зарегистрированы? <a href="auth.php">Войти</a></p>
     <form action="registerRun.php" name="register-form" id="register-form" method="post">
         <div class="form-block">
-            <label for="family">Фамилия:<input type="text" name="family"></label>
+            <label for="family">*Фамилия:<input type="text" name="family"></label>
         </div>
         <div class="form-block">
-            <label for="name">Имя:<input type="text" name="name"></label>
+            <label for="name">*Имя:<input type="text" name="name"></label>
         </div>
         <div class="form-block">
             <label for="fathername">Отчество:<input type="text" name="fathername"></label>
@@ -45,15 +45,15 @@ include ("header/header.php");
         </div>
 
         <div class="form-block">
-            <label for="email">E-mail:<input type="email" name="email"></label>
+            <label for="email">*E-mail:<input type="email" name="email"></label>
         </div>
         <div class="form-block">
             <label for="phone">Номер телефона:<input type="text" name="phone"></label>
         </div>
         <div class="form-block">
-            <label for="password">Пароль:<input type="password" name="password"></label>
+            <label for="password">*Пароль:<input type="password" name="password"></label>
         </div>
-        <h3><b>* поля для заполнния обязательны</b></h3>
+        <h3><b>* поля для заполнения обязательны</b></h3>
         <input type="submit" value="Далее">
 
 
