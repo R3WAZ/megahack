@@ -51,7 +51,7 @@ include ("header/header.php");
             <label for="phone">Номер телефона:<input type="text" name="phone"></label>
         </div>
         <div class="form-block">
-            <label for="password">Пароль:<input type="password" name="phone"></label>
+            <label for="password">Пароль:<input type="password" name="password"></label>
         </div>
         <h3><b>* поля для заполнния обязательны</b></h3>
         <input type="submit" value="Далее">

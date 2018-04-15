@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a37be3-176f-4b53-8964-42895f0c0985" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connectBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/connectBD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/profile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -62,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+            <state relative-caret-position="327">
+              <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -114,13 +110,13 @@
         <option value="$PROJECT_DIR$/css/mainstyle.scss" />
         <option value="$PROJECT_DIR$/components/header/headerMain.php" />
         <option value="$PROJECT_DIR$/components/header/header.php" />
-        <option value="$PROJECT_DIR$/components/register.php" />
         <option value="$PROJECT_DIR$/components/register.scss" />
         <option value="$PROJECT_DIR$/components/auth.scss" />
         <option value="$PROJECT_DIR$/components/auth.php" />
         <option value="$PROJECT_DIR$/connectBD.php" />
         <option value="$PROJECT_DIR$/components/profile.scss" />
         <option value="$PROJECT_DIR$/components/profile.php" />
+        <option value="$PROJECT_DIR$/components/register.php" />
       </list>
     </option>
   </component>
@@ -196,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523656385733</updated>
       <workItem from="1523656393396" duration="908000" />
-      <workItem from="1523681634889" duration="45112000" />
+      <workItem from="1523681634889" duration="45868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45919000" />
+    <option name="totallyTimeSpent" value="46675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -318,13 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/register.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -364,6 +353,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
         </state>
       </provider>
     </entry>
