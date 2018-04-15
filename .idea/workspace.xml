@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87a37be3-176f-4b53-8964-42895f0c0985" name="Default" comment="" />
+    <list default="true" id="87a37be3-176f-4b53-8964-42895f0c0985" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/components/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/search.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +35,8 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="187">
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -47,20 +50,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="208">
+              <caret line="107" column="34" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/search.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
+            <state relative-caret-position="799">
               <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/header/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -89,7 +101,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/mainstyle.scss" />
         <option value="$PROJECT_DIR$/components/header/headerMain.php" />
-        <option value="$PROJECT_DIR$/components/header/header.php" />
         <option value="$PROJECT_DIR$/components/register.scss" />
         <option value="$PROJECT_DIR$/components/auth.scss" />
         <option value="$PROJECT_DIR$/components/auth.php" />
@@ -98,8 +109,9 @@
         <option value="$PROJECT_DIR$/components/profile.php" />
         <option value="$PROJECT_DIR$/components/register.php" />
         <option value="$PROJECT_DIR$/components/searh.php" />
-        <option value="$PROJECT_DIR$/components/search.php" />
         <option value="$PROJECT_DIR$/components/search.scss" />
+        <option value="$PROJECT_DIR$/components/header/header.php" />
+        <option value="$PROJECT_DIR$/components/search.php" />
       </list>
     </option>
   </component>
@@ -134,6 +146,12 @@
               <item name="megahack" type="b2602c69:ProjectViewProjectNode" />
               <item name="megahack" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="megahack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="megahack" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="megahack" type="b2602c69:ProjectViewProjectNode" />
@@ -180,12 +198,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523656385733</updated>
       <workItem from="1523656393396" duration="908000" />
-      <workItem from="1523681634889" duration="46793000" />
+      <workItem from="1523681634889" duration="50563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47600000" />
+    <option name="totallyTimeSpent" value="51370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -281,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/header/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/register.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -330,10 +341,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="133" column="67" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/header/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -344,24 +376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="133" column="67" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="208">
+          <caret line="107" column="34" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="36" />
         </state>
       </provider>
     </entry>
