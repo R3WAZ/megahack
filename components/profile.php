@@ -74,9 +74,9 @@ $userinfo = mysqli_fetch_array($result2);
         </div>
         <div class="form-block">
             <b>3. Общая аккуратность: </b>
-            <input type="range" name="accur" min="1" max="14"
+            <input type="range" name="accur" min="1" max="10"
                    onchange="document.getElementById('accurRangeValue').innerHTML = this.value;"
-            value="<?php echo $personality['poryadok'] ?>">
+                    value="<?php echo $personality['poryadok'] ?>">
             <span id="accurRangeValue"><?php echo $personality['poryadok'] ?></span>
         </div>
         <div class="form-block">

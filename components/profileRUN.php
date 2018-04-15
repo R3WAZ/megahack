@@ -35,12 +35,16 @@ $temperament = $_POST['temperement'];
 $teaching = $_POST['learning'];
 $responsibility = $_POST['respens'];
 
-$sql = "INSERT INTO Personality (firstTime, secondTime, washing, accur, eat, eat-special, communication, temperement, learning, respens)
-VALUES ('$getDown', '$getUP', '$clearing', '$poryadok', '$cooking', '$racion', '$sociality', '$temperament', '$teaching', '$responsibility')";
-$result = $conn->query($sql);
-$conn->close();
+$sql = "UPDATE Personality SET getDown = '$getDown' , getUP='$getUP', clearing='$clearing', poryadok='$poryadok',
+        cooking='$cooking', racion='$racion', sociality='$sociality', temperament='$temperament', teaching='$teaching',
+        responsibility='$responsibility' WHERE idPersonality=30";
+$result = mysqli_query($conn, $sql);
 
+$conn->close();
 ?>
+<script type="text/javascript">
+    location.replace("profile.php");
+</script>
 <br>
 <br>
 <br>

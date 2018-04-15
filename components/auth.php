@@ -17,7 +17,7 @@ include ("header/header.php");
 <div class="main-container">
     <h3>Авторизация</h3>
     <p>Перейти к <a href="register.php">регистрации</a></p>
-    <form action="login.php" name="authForm" id="authForm" method="post">
+    <form action="profile.php" name="authForm" id="authForm" method="post">
         <div class="form-block">
             <label for="e-mail">E-mail:<input type="email" name="e-mail"></label>
         </div>
