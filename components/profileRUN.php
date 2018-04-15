@@ -24,18 +24,19 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$family = $_POST['family'];
-$name = $_POST['name'];
-$fathername = $_POST['fathername'];
-$borndate = $_POST['born-date'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$pass = $_POST['password'];
-$stat = $_POST['status'];
-$gender = $_POST['gender'];
+$getDown = $_POST['firstTime'];
+$getUP = $_POST['secondTime'];
+$clearing = $_POST['washing'];
+$poryadok = $_POST['accur'];
+$cooking = $_POST['eat'];
+$racion = $_POST['eat-special'];
+$sociality = $_POST['communication'];
+$temperament = $_POST['temperement'];
+$teaching = $_POST['learning'];
+$responsibility = $_POST['respens'];
 
-$sql = "INSERT INTO User (firstName, lastName, patronymic, phone, sex, data, email, password, category)
-VALUES ('$name', '$family', '$fathername', '$phone', '$gender', '$borndate', '$email', '$pass', '$stat')";
+$sql = "INSERT INTO Personality (firstTime, secondTime, washing, accur, eat, eat-special, communication, temperement, learning, respens)
+VALUES ('$getDown', '$getUP', '$clearing', '$poryadok', '$cooking', '$racion', '$sociality', '$temperament', '$teaching', '$responsibility')";
 $result = $conn->query($sql);
 $conn->close();
 

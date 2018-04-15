@@ -56,7 +56,7 @@ $userinfo = mysqli_fetch_array($result2);
     </div>
     </div>
     <h3>Мои качества</h3>
-    <form action="updateCharacterisric.php" name="characteristic" method="post">
+    <form action="profileRUN.php" name="characteristic" method="post">
         <div class="form-block">
             <b>1. Время сна:</b>  ложусь в
             <input type="time" name="firstTime"
